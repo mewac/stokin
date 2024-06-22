@@ -1,0 +1,5 @@
+export(calculate_seasonal_factors)
+export(stockin)
+export(calculate_service_level)
+importFrom(dplyr, "%>%", "group_by", "summarise", "mutate", "ungroup", "select", "left_join", "filter")
+importFrom(stats, "qnorm", "sd")

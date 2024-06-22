@@ -1,0 +1,18 @@
+Package: stoKin
+Type: Package
+Title: "Stock Replenishment Simulator"
+Version: 0.1.0
+Author: LABID Mehdi
+Maintainer: The package maintainer <mehdi.labid95@gmail.com>
+Description: The stockin package provides a simple and flexible stock replenishment simulator for businesses managing inventory. It enables users to simulate stock replenishment scenarios based on historical demand, lead times, colisage (package size), and other parameters. By making informed decisions about when and how much to reorder, businesses can optimize their inventory management and ensure product availability.
+License: GPL-3
+Imports:
+    dplyr,
+    shiny
+Suggests:
+    testthat,
+    knitr,
+    rmarkdown
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.1
